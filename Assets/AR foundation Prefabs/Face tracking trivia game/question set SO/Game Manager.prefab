@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4283676239688211558
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5062299621083396450}
+  - component: {fileID: 864486063903768267}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5062299621083396450
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4283676239688211558}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &864486063903768267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4283676239688211558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdb41e28fbc277e4e9ef21f8acd485b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questionSet: {fileID: 11400000, guid: 3e7ebd6e4d44eb442aef8175f589f02a, type: 2}
+  imagePrefab: {fileID: 875620628574189215, guid: fe72563906d143c4d9be1ea0b76b92f9,
+    type: 3}
+  yesSprite: {fileID: 21300000, guid: ab0135177a50a1d43b98e50a51693d7d, type: 3}
+  noSprite: {fileID: 21300000, guid: e1e089395dfb6d44eafccb4a5cd30d49, type: 3}
+  questionYOffset: 0.25
+  optionsYOffset: 0.175
+  optionsXOffset: 0.1
+  questionSize: 0.2
+  optionSize: 0.1
+  correctSprite: {fileID: 21300000, guid: 95b578f118bf7714ba324bc6c4916799, type: 3}
+  wrongSprite: {fileID: 21300000, guid: 78f10f8869d25dc43b914da048f392ef, type: 3}
+  screenshotCanvas: {fileID: 0}
+  scoreSprites:
+  - {fileID: 21300000, guid: 340a0805c1d879c4989eae73585fb84f, type: 3}
+  - {fileID: 21300000, guid: cbe6619b8be74154da714af5468d396a, type: 3}
+  - {fileID: 21300000, guid: 22466cfe56a2574449fba1beac1d2b02, type: 3}
+  - {fileID: 21300000, guid: d1b754b0ed233ce46996e67280899bf9, type: 3}
+  - {fileID: 21300000, guid: 7b35f2c77595d4e42971c5f5c68aeefc, type: 3}
+  - {fileID: 21300000, guid: c855f68c29f9a1b408d539f939f1310b, type: 3}
+  - {fileID: 21300000, guid: ef253fc0a2d680340b33db511df1b525, type: 3}
+  - {fileID: 21300000, guid: eda24f55f108a604bb13c74f99aae7a8, type: 3}
+  - {fileID: 21300000, guid: aff98bc36c021b64e892cde8a05ca7b6, type: 3}
+  - {fileID: 21300000, guid: 45cfd3b48d99bae4ea089e8dd6efc0c6, type: 3}
+  - {fileID: 21300000, guid: fd359c1c1bf83bf44aa43fae854141c8, type: 3}
+  confettiEffect: {fileID: 0}
+  supportImageYOffset: -0.2
+  supportImageSize: 0.5
+  confettiZOffset: 2
+  scoreCount: 0

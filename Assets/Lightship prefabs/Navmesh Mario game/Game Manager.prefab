@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6134412854838336725
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1380975273750005605}
+  - component: {fileID: 68369633305169198}
+  - component: {fileID: 5905247887334329343}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1380975273750005605
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6134412854838336725}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &68369633305169198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6134412854838336725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42b7a78425ffeb9499a67e8c4d6527a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coinPrefabs:
+  - {fileID: 2486424300196107187, guid: 30159113566e1164a8bad109e19f63c2, type: 3}
+  powerupPrefabs:
+  - {fileID: 8780584396764009463, guid: 8e0c6ab8f75c2b848a2b2c55f8689832, type: 3}
+  obstaclePrefabs:
+  - {fileID: 1147493548562557658, guid: 7fb8d30066e80284d9701fe07facc3c8, type: 3}
+  coinProbability: 1
+  obstacleProbability: 0
+  powerupProbability: 0
+  maxObjectsToSpawn: 10
+  minDistanceBetweenObjects: 1
+  spawnInterval: 5
+  spawnDistance: 3
+  navMeshQueryCacheTime: 30
+  gridSize: 0.5
+  navMesh: {fileID: 0}
+--- !u!114 &5905247887334329343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6134412854838336725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8efbe081b1a1974aab4d88fc01afd13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPrefabs:
+  - {fileID: 7350299709145575125, guid: dca713747c1221f4db9f78c44718299f, type: 3}
+  - {fileID: 9066959125422218437, guid: 094135d951b9c274ebe9bb0291737491, type: 3}
+  maxEnemies: 6
+  minSpawnRadius: 8
+  maxSpawnRadius: 15
+  spawnInterval: 7
+  attackRange: 0.5
+  spawnManager: {fileID: 68369633305169198}
+  navMesh: {fileID: 0}

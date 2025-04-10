@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d052921d99eb8942b9dafee57c29d2b, type: 3}
+  m_Name: QuestionSet1
+  m_EditorClassIdentifier: 
+  questions:
+  - questionImage: {fileID: 21300000, guid: 70a54ecddf484d74b8b957d1fa98481e, type: 3}
+    correctAnswer: 1
+    hasSupportingImage: 0
+    supportingImage: {fileID: 0}
+  - questionImage: {fileID: 21300000, guid: 69650361fad54dd49a796f4c73180747, type: 3}
+    correctAnswer: 0
+    hasSupportingImage: 0
+    supportingImage: {fileID: 0}
+  - questionImage: {fileID: 21300000, guid: cef2bcf9c25fe174986afdac56114c28, type: 3}
+    correctAnswer: 1
+    hasSupportingImage: 0
+    supportingImage: {fileID: 0}
+  - questionImage: {fileID: 21300000, guid: 20069955a91df714e8b9707c48cfe666, type: 3}
+    correctAnswer: 0
+    hasSupportingImage: 0
+    supportingImage: {fileID: 0}
+  - questionImage: {fileID: 21300000, guid: a25fb0b09159d1a4db962b87b3fee9fd, type: 3}
+    correctAnswer: 1
+    hasSupportingImage: 0
+    supportingImage: {fileID: 0}
+  - questionImage: {fileID: 21300000, guid: fb4f45570e6dc1e4f87a2627652eec05, type: 3}
+    correctAnswer: 0
+    hasSupportingImage: 0
+    supportingImage: {fileID: 0}
+  - questionImage: {fileID: 21300000, guid: 4d0bcca5a49c15840b9036c4e0adecf2, type: 3}
+    correctAnswer: 1
+    hasSupportingImage: 1
+    supportingImage: {fileID: 21300000, guid: 79bc721feef317340a700e2f6dd839e6, type: 3}
+  - questionImage: {fileID: 21300000, guid: 603e1e76827236842971d62a20c2bc84, type: 3}
+    correctAnswer: 0
+    hasSupportingImage: 0
+    supportingImage: {fileID: 0}
+  - questionImage: {fileID: 21300000, guid: c98729404e0ad3744a85538d8e6cc09b, type: 3}
+    correctAnswer: 1
+    hasSupportingImage: 1
+    supportingImage: {fileID: 21300000, guid: 8ae24374b0d7c3440a7cda1145c5e0e7, type: 3}
+  - questionImage: {fileID: 21300000, guid: 2928ec1372812414d96ca25e7fee3473, type: 3}
+    correctAnswer: 0
+    hasSupportingImage: 1
+    supportingImage: {fileID: 21300000, guid: 740cdfb16d8b54049b57a74a758f130a, type: 3}
+  - questionImage: {fileID: 21300000, guid: 8a6bf567e8889b14e8395bcf257f4f7a, type: 3}
+    correctAnswer: 1
+    hasSupportingImage: 1
+    supportingImage: {fileID: 21300000, guid: b9c5d5b44ed5112448e9bea0d58c61c1, type: 3}
